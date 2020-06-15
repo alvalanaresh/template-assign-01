@@ -30,12 +30,7 @@ import unittest
 
 
 def empty_cells(n):
-    k=0
-    for r in range(0,n):
-        for c in range(0,n):
-            if r==c or r+c==n-1:
-                k+=1
-    return n**2-k
+    pass
 
 # DO NOT TOUCH THE BELOW CODE
 class TestEmptyCells(unittest.TestCase):
