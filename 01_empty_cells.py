@@ -26,11 +26,11 @@ import unittest
 # Implement the below function and run this file
 # Return the output, No need read input or print the ouput
 
-# Work out the logic and then code it
+# vvWork out the logic and then code it
 
 
 def empty_cells(n):
-    pass
+    retunr n*n+1
 
 # DO NOT TOUCH THE BELOW CODE
 class TestEmptyCells(unittest.TestCase):
